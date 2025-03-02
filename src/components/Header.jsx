@@ -1,5 +1,4 @@
 import Navbar from "./Navbar";
-
 function Header() {
   return (
     <div
@@ -7,6 +6,7 @@ function Header() {
       style={{ backgroundImage: "url('/header_img2.jpg')" }}
       id="Header"
     >
+      
       <div className="absolute top-0 left-0 w-full h-full bg-blue-950 opacity-40"></div>
       <Navbar />
       <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white z-20">

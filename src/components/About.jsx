@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full bg-slate-200 overflow-hidden"
-      id="About n"
+      id="About"
     >
       <h1 className="text-2xl sm:text-4xl decoration-1 under font-bold">
         About{" "}
