@@ -18,7 +18,7 @@ function App() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1.5, delay: index * 0.5 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <Component />
           </motion.div>
